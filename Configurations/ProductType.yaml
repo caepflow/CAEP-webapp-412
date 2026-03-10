@@ -1,0 +1,19 @@
+id: 1732851a-3307-430d-8a19-2f66bc130979
+type: entity
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    c5323daf-b2f6-403e-b927-acfbe518ab1c:
+      x: 484.82088304246986
+      y: -0.12774055743175858
+entityType: enum
+name: ProductType
+description: Description for NewEntity
+enumeratorList:
+- name: Fish
+  description: Description for Fish
+  annotations: []
+- name: Meat
+  description: Description for Meat
+  annotations: []

@@ -1,0 +1,46 @@
+id: ae80bda1-7444-4468-91a6-7bb82c42353d
+type: entity
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    0e18f35f-14e0-426a-b1a1-60f559e44268:
+      x: 511.75
+      y: 268.20170974731445
+entityType: domain
+fields:
+- name: invoiceDate
+  type: string
+  description: Description for invoiceDate
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: totalAmount
+  type: integer
+  description: Description for totalAmount
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: description
+  type: string
+  description: Description for description
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: invoiceRows
+  type: InvoiceRow
+  description: Description for invoiceRows
+  isPublic: true
+  enumerable: true
+  annotations: []
+  isArray: true
+name: Invoice
+description: Description for NewEntity
+useRepository: true
+associations:
+- target:
+    entity: 7ae9ddb5-08fe-4f39-b71d-0ddfe8af75a7
+    foreignKey: invoiceId
+  type: associate
+  multiplicity: one-to-many
+  navigation: invoiceRows
