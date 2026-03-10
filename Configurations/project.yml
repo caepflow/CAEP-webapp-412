@@ -4,8 +4,8 @@ type: c4-project
 caepVersion: 6
 description: This is a sample project configuration for C4 model generation.
 children:
-- id: 0546225b-93ef-4a4d-8aaf-39ce1f46472a
-  type: software-system
-- id: f75cba64-97d4-4637-a10e-50566f829688
-  type: person
+  - id: 0546225b-93ef-4a4d-8aaf-39ce1f46472a
+    type: software-system
+  - id: f75cba64-97d4-4637-a10e-50566f829688
+    type: person
 tenantId: 5f37364f-201e-47ea-2e89-08dd02619fda

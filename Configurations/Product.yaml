@@ -1,45 +1,54 @@
 id: 6e01d91c-b5a2-459b-9791-4bf58d6bf5e0
 type: entity
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    c5323daf-b2f6-403e-b927-acfbe518ab1c:
-      x: 99.64630455850013
-      y: 121.63001818476147
+  - namespace: c4modeler
+    name: position
+    value:
+      c5323daf-b2f6-403e-b927-acfbe518ab1c:
+        x: 99.64630455850013
+        y: 121.63001818476147
+      5f4d0504-c56e-4e00-a400-df15ad03620e:
+        x: 137.5
+        y: 90
 entityType: domain
 fields:
-- name: name
-  type: string
-  description: Description for name
-  isPublic: true
-  enumerable: true
-  annotations: []
-- name: description
-  type: string
-  description: Description for description
-  isPublic: true
-  enumerable: true
-  annotations: []
-- name: suggestedPrice
-  type: float
-  description: Description for suggestedPrice
-  isPublic: true
-  enumerable: true
-  annotations: []
-- name: availableItems
-  type: integer
-  description: Description for availableItems
-  isPublic: true
-  enumerable: true
-  annotations: []
+  - name: name
+    type: string
+    description: Description for name
+    isPublic: true
+    enumerable: true
+    annotations: []
+  - name: description
+    type: string
+    description: Description for description
+    isPublic: true
+    enumerable: true
+    annotations: []
+  - name: suggestedPrice
+    type: float
+    description: Description for suggestedPrice
+    isPublic: true
+    enumerable: true
+    annotations: []
+  - name: availableItems
+    type: integer
+    description: Description for availableItems
+    isPublic: true
+    enumerable: true
+    annotations: []
 name: Product
 description: Description for NewEntity
 associations:
-- target:
-    entity: 9307af4c-e356-46d5-96bf-f963a220d67c
-    navigation: product
-    foreignKey: productId
-  type: associate
-  multiplicity: one-to-many
+  - target:
+      entity: 9307af4c-e356-46d5-96bf-f963a220d67c
+      navigation: product
+      foreignKey: productId
+    type: associate
+    multiplicity: one-to-many
+  - target:
+      entity: 7ae9ddb5-08fe-4f39-b71d-0ddfe8af75a7
+      navigation: product
+      foreignKey: productId
+    type: associate
+    multiplicity: one-to-many
 useRepository: true
