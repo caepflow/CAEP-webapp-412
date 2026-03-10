@@ -6,8 +6,8 @@ annotations:
     name: position
     value:
       5f4d0504-c56e-4e00-a400-df15ad03620e:
-        x: 97.08938547486031
-        y: 114.74301675977657
+        x: -38.39664804469277
+        y: 271.2346368715084
 entityType: domain
 fields:
   - name: name
@@ -31,6 +31,12 @@ fields:
   - name: availableItems
     type: integer
     description: Description for availableItems
+    isPublic: true
+    enumerable: true
+    annotations: []
+  - name: type
+    type: ProductType
+    description: Description for type
     isPublic: true
     enumerable: true
     annotations: []
