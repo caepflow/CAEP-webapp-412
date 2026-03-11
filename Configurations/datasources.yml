@@ -2,3 +2,8 @@ id: 97f33686-9fd7-40a6-940b-582d4eb2d045
 type: datasources
 name: Datasources
 description: Datasources let you define how your application interacts with data storage systems.
+children:
+  - id: def777a1-6109-432d-b107-dcd576f72a0e
+    type: datasource
+  - id: 6cf6f427-c917-425b-9ef6-8eb873cde604
+    type: datasource

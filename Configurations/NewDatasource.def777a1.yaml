@@ -1,0 +1,19 @@
+id: def777a1-6109-432d-b107-dcd576f72a0e
+type: datasource
+name: NewDatasource
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: InvoiceRow
+includeAllFields: false
+allowPersistence: true
+fields:
+  - name: product
+    includeAllFields: false
+    allowPersistence: true
+    fields:
+      - name: name
+  - name: quantity
+pageSize: 25
+sort:
+  - field: product.name
+    direction: Ascending

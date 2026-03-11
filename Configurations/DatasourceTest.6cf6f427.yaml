@@ -1,0 +1,16 @@
+id: 6cf6f427-c917-425b-9ef6-8eb873cde604
+type: datasource
+name: DatasourceTest
+description: DatasourceTest description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: true
+allowPersistence: false
+fields:
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: productId
+      - name: quantity
+pageSize: 25
